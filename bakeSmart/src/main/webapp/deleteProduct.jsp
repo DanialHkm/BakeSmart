@@ -4,4 +4,4 @@
 <%  
 productDao.delete(p);  
 response.sendRedirect("viewProduct.jsp");  
-%>  
+%>   
