@@ -1,6 +1,6 @@
 @charset "ISO-8859-1";
 body{
-	background-color:#8EA1DA;
+	background-color:#E5E5E8;
 	margin: 0px;
 	padding: 0px;
 	background-size: 100%;
@@ -47,8 +47,8 @@ button {
   	display: inline-block;
 }
 
-button.AddStaff {
-	background-color: black;
+button.ADDNEW {
+	background-color: #377edb;
 	font-size: 20px;
 	margin: 0 40px;
 }
@@ -86,7 +86,7 @@ button.delete:hover {
 	transform: translateY(-1px);
 }
 
-button.Addproduct:hover {
+button.ADDNEW:hover {
     background-color: #545254;
     color: white;
     cursor:pointer;
@@ -95,7 +95,7 @@ button.Addproduct:hover {
 
 .header {
   overflow: hidden;
-  background-color: black;
+  background-color: #377edb;
   padding: 0px 0px;
   height: 25px;
   font-size: 22px;
