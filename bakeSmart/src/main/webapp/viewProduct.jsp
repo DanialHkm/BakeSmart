@@ -12,8 +12,8 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>  
 	<div class="header">
         <div class="header-right">
-            <a href="">Home</a>
             <a href="">Staff</a>
+            <a href="">Product</a>
             <a class="logout" href="">Logout</a>
         </div>
     </div>

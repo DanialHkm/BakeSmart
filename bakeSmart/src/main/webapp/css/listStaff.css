@@ -1,0 +1,138 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+body{
+	background-color:#E5E5E8;
+	margin: 0px;
+	padding: 0px;
+	background-size: 100%;
+}
+
+table {
+  	width: 90%;
+  	border-collapse: collapse;
+  	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-family: "Arial";
+  
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color:#377edb;
+  color:white;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+   font-family: "Arial";
+}
+
+button {
+	color: white;
+	border: none;
+	border-radius: 6px;
+	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	font-family: "Arial";
+  	display: inline-block;
+}
+
+button.AddStaff {
+	background-color: #377edb;
+	font-size: 20px;
+	margin: 0 40px;
+}
+
+button.view {
+	background-color: #52BE80 ;
+}
+
+button.edit {
+	background-color: #0078FF;
+}
+
+button.delete {
+	background-color: red;
+}
+
+button.view:hover {
+    background-color: #7DCEA0;
+    color: black;
+    cursor:pointer;
+	transform: translateY(-1px);
+}
+
+button.edit:hover {
+    background-color: #00AEFF;
+    color: black;
+    cursor:pointer;
+	transform: translateY(-1px);
+}
+
+button.delete:hover {
+    background-color: #FF5567;
+    color: black;
+    cursor:pointer;
+	transform: translateY(-1px);
+}
+
+button.AddStaff:hover {
+    background-color: #545254;
+    color: white;
+    cursor:pointer;
+	transform: translateY(-1px);
+}
+
+.header {
+  overflow: hidden;
+  background-color: #377edb;
+  padding: 0px 0px;
+  height: 25px;
+  font-size: 22px;
+  font-family: "Arial";
+  
+}
+
+.header-right {
+  float: right;
+}
+
+.header a.logout {
+
+  color: white;
+  text-decoration:none;
+  justify-content: center;
+}
+.header a {
+
+  color: white;
+  text-decoration:none;
+  margin: 0 10px;
+  justify-content: center;
+}
+
+.productTable {
+	width: 95%;
+	height: 70%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 4px 4px 6px rgba(38,30,30,1.00);
+	background-color: white;
+	transition: 0.6s ease;
+
+}
