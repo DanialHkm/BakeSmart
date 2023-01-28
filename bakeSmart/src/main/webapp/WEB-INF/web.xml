@@ -110,4 +110,34 @@
     <servlet-name>custLoginServlet</servlet-name>
     <url-pattern>/custLoginServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>registermodel</display-name>
+    <servlet-name>registermodel</servlet-name>
+    <servlet-class>BAKECrud.registermodel</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registermodel</servlet-name>
+    <url-pattern>/registermodel</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>registerDao</display-name>
+    <servlet-name>registerDao</servlet-name>
+    <servlet-class>BAKECrud.registerDao</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>registerDao</servlet-name>
+    <url-pattern>/registerDao</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>logoutServlet</display-name>
+    <servlet-name>logoutServlet</servlet-name>
+    <servlet-class>logoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>logoutServlet</servlet-name>
+    <url-pattern>/logoutServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

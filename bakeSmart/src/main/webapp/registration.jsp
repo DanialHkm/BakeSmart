@@ -11,12 +11,12 @@
 <body>
     <div class="center">
         <h1>CUSTOMER SIGNUP</h1>
-        <form action="registrationServlet" method="post">
+        <form action="registrationProcess.jsp" method="post">
             <div class="txt_field">
                 <input type="text" placeholder="Name" name="CName" required>
             </div>
             <div class="txt_field">
-                <input type="password" placeholder="Phone" name="CPhone" required>
+                <input type="text" placeholder="Phone" name="CPhone" required>
             </div>
             <div class="txt_field">
                 <input type="text" placeholder="Address" name="CAddress" required>
