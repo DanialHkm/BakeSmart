@@ -42,6 +42,7 @@ request.setAttribute("list",list);
 		</tr>  
 		</tbody>
 	</c:forEach>  
+	<a href="homepagecustomer.jsp"><button class=" button2">BACK</button></a> 
 </table>  
 </div>
 <br/> 
