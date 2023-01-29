@@ -10,15 +10,23 @@
 <body>
 <%@page import="BAKECrud.productDao,BAKECrud.product,java.util.*"%>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>  
-  <h1>Product Dashboard</h1>
-   
-  
+	<div class="header">
+        <div class="header-right">
+            <a href="">Staff</a>
+            <a href="">Product</a>
+            <a class="logout" href="">Logout</a>
+        </div>
+    </div>
+    <br>
+    <a href="addProductForm.jsp"><button class='ADDNEW'>ADD NEW PRODUCT</button></a>
+     
 <%  
 List<product> list=productDao.getAllRecords();  
 request.setAttribute("list",list);  
 %>  
-<div class="productTable" >  
-<a href="addProductForm.jsp"><button class='view'>ADD NEW PRODUCT</button></a> 
+<div class="" >  
+<h1>Product Dashboard</h1>
+<br>
  <table >
 	<thead> 
 	<tr>
