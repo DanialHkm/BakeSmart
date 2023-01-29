@@ -44,8 +44,8 @@
 						<input type="number" placeholder="Total Payment" name="amount" autocomplete="off"><br><br>
 					</div>
 					
-					<button class="button2"href="menu.jsp" name="submit">BACK</button>	
-					<button class="button" name="submit">SUBMIT</button>
+					<button class="button2"href="viewMenu.jsp" name="submit">BACK</button>	
+					<button class="button" href="SuccessPayment.jsp" name="submit">SUBMIT</button>
 				</form>
 				
             </div>
