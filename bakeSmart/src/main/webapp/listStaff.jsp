@@ -12,8 +12,14 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 	<div class="header">
         <div class="header-right">
+<<<<<<< HEAD
+            <a href="">Staff</a>
+            <a href="">Product</a>
+             <a href="">Order</a>
+=======
             <a href="listtStaff.jsp">Staff</a>
             <a href="productForm.html">Product</a>
+>>>>>>> branch 'master' of https://github.com/DanialHkm/BakeSmart.git
             <a class="logout" href="">Logout</a>
         </div>
     </div>
