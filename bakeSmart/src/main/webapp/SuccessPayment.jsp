@@ -14,7 +14,7 @@
 <body>
 
 <ul>
-  <li><a href="#home"  class="active">Home</a></li>
+  <li><a href="#home"  >Home</a></li>
   <li><a href="#news">Menu</a></li>
   <li><a href="#contact">Order</a></li>
    <li><a href="#news">About Us</a></li>
@@ -29,17 +29,15 @@
         		<!-- SECTION 1 -->
                 <h2></h2>
                 <section>
-                    <div class="inner">
-						<div>
-							<img src="images/huge.jpg" alt="" width="1000" height="1000">
-						</div>
+                    
 						<div class="form-content" >
 							<div class="form-header">
 							</div>
-							<h5>Welcome to Bakesmart</h5>
-							<p><a href="OrderController?action=list" class="button">Order Now</a></p>					
+							<h5>Successful Place Order From BakeSmart</h5>
+							<h1>Please make a payment when received order , Thank You</h1>
+							<p><a href="homepagecustomer.jsp" class="button">Home</a></p>					
 						</div>
-					</div>
+			
                 </section>
  			</form>
 </body>

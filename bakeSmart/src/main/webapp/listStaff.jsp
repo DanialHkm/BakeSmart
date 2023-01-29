@@ -14,6 +14,7 @@
         <div class="header-right">
             <a href="">Staff</a>
             <a href="">Product</a>
+             <a href="">Order</a>
             <a class="logout" href="">Logout</a>
         </div>
     </div>

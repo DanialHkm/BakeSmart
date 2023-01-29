@@ -2,11 +2,13 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <title>Edit Profile</title>
 <link rel="stylesheet" href="css/addProduct.css">
 </head>
 <body>
-
+</head>
+<body>
 	<div class="wrapper">
 				<div class="form-container">
 				<h2 style="text-align:center;"> Edit Profile </h2> 
