@@ -27,9 +27,7 @@ request.setAttribute("list",list);
 %>  
 <div class="" >  
 <h1>Product Dashboard</h1>
-<br/>
-<br/>
-<br/>
+<br>
  <table >
 	<thead> 
 	<tr>
