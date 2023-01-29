@@ -35,6 +35,7 @@ staff s=staffDAO.getRecordById(Integer.parseInt(SId));
 			</div>
 		</div>
 	</form>
+	<a href="listStaff.jsp"><button class="button">BACK</button></a> 
 
 </body>
 </html>
