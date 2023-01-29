@@ -20,7 +20,7 @@
 				<h2 style="text-align:center;"> Make a Payment</h2> 
 				<br></br>
 				
-				<form action="payment.jsp" method="post">  
+				<form action="SuccessPayment.jsp" method="post">  
 			     <div class="input-name">
 			     	Menu <br />
 			     	 <input type="text" placeholder="Enter Menu" name="CName" autocomplete="off"><br><br>
@@ -46,6 +46,7 @@
 					
 					<button class="button2"href="viewMenu.jsp" name="submit">BACK</button>	
 					<button class="button" href="SuccessPayment.jsp" name="submit">SUBMIT</button>
+					
 				</form>
 				
             </div>
