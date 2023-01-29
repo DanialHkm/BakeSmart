@@ -16,9 +16,9 @@ request.setAttribute("list",list);
 %>
 
 <ul>
-  <li><a href="#home"  class="active">Home</a></li>
+  <li><a href="#home">Home</a></li>
   <li><a href="#news">Menu</a></li>
-  <li><a href="#contact">Order</a></li>
+  <li><a href="#contact" class="active">Order</a></li>
    <li><a href="#news">About Us</a></li>
 
   <li style="float:right"><a href="#about">Log Out <i class="fa fa-sign-out"></i></a></li>
