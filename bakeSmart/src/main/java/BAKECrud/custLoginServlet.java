@@ -61,7 +61,7 @@ public class custLoginServlet extends HttpServlet {
 	            if (result.next()) {
 	                HttpSession session = request.getSession();
 	                session.setAttribute("CUsername", CUsername);
-	                response.sendRedirect("productForm.html");
+	                response.sendRedirect("homepagecustomer.jsp");
 	            } else {
 	                request.setAttribute("errorMessage", "Sorry, incorrect username or password. Please try again.");
 	                RequestDispatcher rd = request.getRequestDispatcher("custLogin.jsp");

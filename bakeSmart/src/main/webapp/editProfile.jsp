@@ -3,5 +3,5 @@
 <jsp:setProperty property="*" name="c"/>  
 <%  
 int i=custDao.save(c);  
-response.sendRedirect("updateCust.jsp");  
+response.sendRedirect("homepagecustomer.jsp");  
 %> 

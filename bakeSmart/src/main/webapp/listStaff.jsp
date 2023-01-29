@@ -11,15 +11,10 @@
 <%@page import="BAKECrud.staffDAO,BAKECrud.staff,java.util.*"%>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 	<div class="header">
-        <div class="header-right">
-<<<<<<< HEAD
-            <a href="">Staff</a>
-            <a href="">Product</a>
-             <a href="">Order</a>
-=======
+        <div class="header-right">            
             <a href="listtStaff.jsp">Staff</a>
             <a href="productForm.html">Product</a>
->>>>>>> branch 'master' of https://github.com/DanialHkm/BakeSmart.git
+            <a href="">Order</a>
             <a class="logout" href="">Logout</a>
         </div>
     </div>

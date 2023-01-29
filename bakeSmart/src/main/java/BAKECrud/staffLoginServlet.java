@@ -61,7 +61,7 @@ public class staffLoginServlet extends HttpServlet {
             if (result.next()) {
                 HttpSession session = request.getSession();
                 session.setAttribute("SUsername", SUsername);
-                response.sendRedirect("productForm.html");
+                response.sendRedirect("listStaff.jsp");
             } else {
                 request.setAttribute("errorMessage", "Sorry, incorrect username or password. Please try again.");
                 RequestDispatcher rd = request.getRequestDispatcher("staffLogin.jsp");
