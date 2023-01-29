@@ -12,8 +12,8 @@
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 	<div class="header">
         <div class="header-right">
-            <a href="">Staff</a>
-            <a href="">Product</a>
+            <a href="listtStaff.jsp">Staff</a>
+            <a href="productForm.html">Product</a>
             <a class="logout" href="">Logout</a>
         </div>
     </div>
@@ -43,8 +43,8 @@
 	      <c:forEach items="${list}" var="s"> 
 	        <td>${s.getSId()}</td>
 	        <td>${s.getSUsername()}</td>
-	        <td>${s.getSPassword()}</td>
 	        <td>${s.getSPosition()}</td>
+	        <td>${s.getSPassword()}</td>	        
 	        <td>
 			<a href="updateStaffForm.jsp?SId=${s.getSId()}"><button class='view'>UPDATE</button> </a>
 			<a href="deleteStaff.jsp?SId=${s.getSId()}"><button class='delete'>DELETE</button> </a>
