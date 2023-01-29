@@ -32,7 +32,7 @@ request.setAttribute("list",list);
 	<thead> 
 	<tr>
 	<br>
-	<br>
+	
 	<th>Id</th>
 	<th>Product Name</th>
 	<th>Product Quantity</th>
