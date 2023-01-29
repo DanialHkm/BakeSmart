@@ -37,7 +37,7 @@ h1 {
 }
 
 button {
-	color: white;
+	color: rgb(0, 255, 64);
 	border: none;
 	border-radius: 6px;
 	text-align: center;
@@ -134,4 +134,31 @@ button.ADDNEW:hover {
 	background-color: white;
 	transition: 0.6s ease;
 
+}
+button { 
+	width : 20px auto;
+	padding: 8px 20px;
+	background-color: #52BE80 ;
+	color: white ;
+	border: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 6px;				  				  
+}
+buttons { 
+	width : 20px auto;
+	padding: 8px 20px;
+	background-color: #ffff00 ;
+	color: white ;
+	border: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 6px;				  				  
+}
+
+button:hover {
+	cursor:pointer;
+	transform: translateY(-1px);
+	background-color: #7DCEA0;
+	color: black;
 }

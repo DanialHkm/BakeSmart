@@ -11,10 +11,12 @@
 <%@page import="BAKECrud.orderDao,BAKECrud.orderStatus,java.util.*"%>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
 	<h1>Order Status</h1>
+	
 <%
 List<orderStatus> list=orderDao.getAllRecords(); 
 request.setAttribute("list",list);
 %>
+
 
 <div class="orderStatus" >  
  <table >
@@ -40,6 +42,7 @@ request.setAttribute("list",list);
 		</tr>  
 		</tbody>
 	</c:forEach>  
+	<a href="homepagecustomer.jsp"><button class=" button2">BACK</button></a> 
 </table>  
 </div>
 <br/> 
