@@ -27,11 +27,13 @@ request.setAttribute("list",list);
 %>  
 <div class="" >  
 <h1>Product Dashboard</h1>
-<br>
-<br>
+<br/>
+<br/>
+<br/>
  <table >
 	<thead> 
 	<tr>
+	<br>
 	<br>
 	<th>Id</th>
 	<th>Product Name</th>
