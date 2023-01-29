@@ -31,7 +31,7 @@
             <a href="">Staff</a>
             <a href="">Product</a>
             <a href="">Order</a>
-            <a class="logout" href="">Logout</a>
+            <a class="logout" href="staffLogin.jsp">Logout</a>
         </div>
     </div>
     <br>
@@ -51,15 +51,14 @@
 	      <tr>
 		    <td>1</td>
 		    <td><a href="invoicedetail.jsp"><button class='button'>View</button> </a>
-		    <td><a href="orderconfirmyes.jsp"><button class='button button'>Yes</button> 
-		    <a href=""><button class='button button3'>No</button> </td>
+		    <td><a href="successconfirm.jsp"><button class='button button'>Order Confirmed</button> 
+		     </td>
 	        </tr>
 	     <tr>
 		    <td>2</td>
 		     <td><a href="invoicedetail.jsp"><button class='button'>View</button> </a>
 		     
-		    <td><a href="successconfirm.jsp"><button class='button button'>Yes</button> 
-		    <a href="rejectorder.jsp"><button class='button button3'>No</button> </td>
+		    <td><a href=""><button class='button button3'>Order Rejected</button> </td>
 	        </tr>
 	     
 	   
@@ -67,3 +66,4 @@
 </div>
 
 </body>
+>

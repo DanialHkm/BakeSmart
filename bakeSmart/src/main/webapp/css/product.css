@@ -162,3 +162,46 @@ button:hover {
 	background-color: #7DCEA0;
 	color: black;
 }
+
+button2 {
+	width : 20px auto;
+	padding: 8px 20px;
+	background-color: #52BE80 ;
+	color: white ;
+	border: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 6px;	
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #2A7BCB;
+}
+
+.active {
+  background-color: #2A7BCB;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+}
