@@ -162,3 +162,14 @@ button:hover {
 	background-color: #7DCEA0;
 	color: black;
 }
+
+button2 {
+	width : 20px auto;
+	padding: 8px 20px;
+	background-color: #52BE80 ;
+	color: white ;
+	border: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 6px;	
+}
