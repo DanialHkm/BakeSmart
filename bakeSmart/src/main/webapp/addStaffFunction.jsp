@@ -3,6 +3,6 @@
 <jsp:setProperty property="*" name="s"/>  
   
 <%  
-int i=staffDAO.save(s);   
-response.sendRedirect("listStaff.jsp");  
-%>  
+int i=staffDAO.save(s); 
+response.sendRedirect("listStaff.jsp");
+%>
